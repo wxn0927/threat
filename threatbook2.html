@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="wrapper">
+        
+		<div class="fixedArea" style="right: 51.5px;"> 
+			<span class="wechat">
+				<!--<img class="img-subscribe" src="/nodev4/img/subscribe.png@ad02768e">-->
+				<span class="arrow-right"></span>
+			</span>
+			<span class="emailto" data-toggle="modal" data-target="#contactwb"></span>
+			<span class="totop glyphicon glyphicon-menu-up"></span>
+		</div>
+
+
+		<div class="header-wrap">
+		    <nav class="nav-new clearfix">
+		    <a class="navbar-brand" href="/" id="logo_container"><img alt="VirusBook" src="img/logo_big.png@2353adff"></a>
+		    <div id="search_container" class="center-block  hidden-xs hidden-sm">
+		      <form id="form_search" class="form-inline" name="f" method="post" action="/query">
+		        <span class="user-input">
+		          <input name="q" id="q" class="q form-control" value="" maxlength="255" autocomplete="off" placeholder="IP、域名、文件HASH(MD5/SHA1/SHA256)">
+		          <a href="javascript:;" id="quickdelete" title="清空" class="quickdelete" style="top: 0px; right: 0px; display: none;"></a>
+		          <span class="warn-info hidden search-wrong"></span>
+		        </span>
+		        <input type="submit" id="ana1" value="分析" class="btn btn-default btn-search text-center form-control">
+		      </form>
+		    </div>
+		    
+		    <div id="user_container" class="hidden-xs hidden-sm clearfix">
+		      <a class="btn login btn-nologin" href="javascript:;" id="login" title="登录">登录</a>
+		      <a class="btn login btn-nologin" href="javascript:;" id="register">注册</a>
+		    </div>
+		    </nav>
+		</div>
+		
+    	</div>
+	</body>
+	<style>
+		
+		.header-wrap .nav-new #search_container .user-input input {
+		    width: 390px;
+		    border: 1px solid #cfd0d2;
+		    padding: 6px 10px;
+		    padding-right: 0;
+		    border-right: 0;
+		    font-size: 14px;
+		    height: 40px;
+		    background-color: #f6f6f6;
+		    border-top-left-radius: 3px;
+		    border-top-right-radius: 0;
+		    border-bottom-right-radius: 0;
+		    border-bottom-left-radius: 3px;
+		    padding-right: 20px;
+		}
+		
+		#search_container .btn-search {
+		    display: inline-block;
+		    width: 100px;
+		    height: 40px;
+		    float: left;
+		    font-size: 16px;
+		    cursor: pointer;
+		    border: 0;
+		    color: #fff;
+		    line-height: 28px;
+		    text-align: center;
+		    background-color: #3fa9f5;
+		    border-top-left-radius: 0;
+		    border-top-right-radius: 3px;
+		    border-bottom-right-radius: 3px;
+		    border-bottom-left-radius: 0;
+		}
+		
+		.header-wrap .nav-new #search_container .btn-search {
+		    display: inline-block;
+		    width: 100px;
+		    height: 40px;
+		    float: left;
+		    font-size: 16px;
+		    cursor: pointer;
+		    border: 0;
+		    color: #fff;
+		    line-height: 28px;
+		    text-align: center;
+		    background-color: #3fa9f5;
+		    border-top-left-radius: 0;
+		    border-top-right-radius: 3px;
+		    border-bottom-right-radius: 3px;
+		    border-bottom-left-radius: 0;
+		}
+		
+		.header-wrap .btn-nologin {
+		    border-radius: 3px;
+		    font-size: 14px;
+		    margin-right: 10px;
+		    border: 1px solid #e2e5e5;
+		    padding: 0;
+		}
+	</style>
+	
+</html>
